@@ -3,6 +3,7 @@ import {Routes,Route,BrowserRouter} from 'react-router-dom'
 import Card from './component/Chat/Card'
 import socketIO from "socket.io-client"
 import ChatUI from './component/Home/ChatUi'
+import './index.css'
 
 const socket = socketIO.connect('http://localhost:4000', {
   transports: ['websocket'],
